@@ -858,3 +858,8 @@ a{
     border: 1px solid black;
 
   }
+
+  .friendPhoto{
+     max-width: 100%;
+     height: auto;
+  }
