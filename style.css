@@ -863,3 +863,17 @@ a{
      max-width: 100%;
      height: auto;
   }
+
+  .hover-box {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 2rem;
+  background: white;
+  cursor: pointer;
+}
+
+.hover-box:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
