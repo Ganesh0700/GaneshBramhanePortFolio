@@ -882,3 +882,16 @@ a{
    background-color: lightgrey;
    color: blue;
 }
+
+.resumebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialMedia{
+  display: flex;
+  justify-content: center;
+}
+
+
