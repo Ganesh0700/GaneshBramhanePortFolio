@@ -877,3 +877,8 @@ a{
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
 }
+
+.contactInfo{
+   background-color: lightgrey;
+   color: blue;
+}
