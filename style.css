@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Reset and Font */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+:root {
+  --bgOrange: #e84949;
+}
+
+/* Resume Button Enhancement */
+.resumebtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+  min-height: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.resumebtn a {
+  width: 100%;
+  text-align: center;
+  color: inherit;
+}
+
+/* Responsive logo sizing */
+.skills-logo {
+  width: 90px;
+  transition: transform 0.3s;
+}
+.skills-logo:hover {
+  transform: scale(1.15);
+}
+@media (max-width: 640px) {
+  .skills-logo {
+    width: 60px;
+  }
+}
+
+/* Friend photo responsive */
+.friendPhoto {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hover box for education and cards */
+.hover-box {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 2rem;
+  background: white;
+  cursor: pointer;
+}
+.hover-box:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Utility for absolute positioning */
+.absolute {
+  position: absolute;
+}
+
+/* Utility for blob animation */
+.blob-style {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  animation: blobAnimate 3s linear infinite;
+}
+@keyframes blobAnimate {
+  50% {
+    top: 54%;
+    left: 46%;
+  }
+}
+
+/* Responsive skills container */
+.skills-container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin: 1rem auto;
+  gap: 40px;
+}
+.skill-container-left,
+.skill-container-right {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .skill-container-left,
+  .skill-container-right {
+    width: 50%;
+  }
+}
+
+/* Remove unused, duplicate, or commented code for clarity and maintainability */
