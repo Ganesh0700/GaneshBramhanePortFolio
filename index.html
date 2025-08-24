@@ -200,18 +200,25 @@
 
 
 <!-- Skill Section -->
-<section id="Skill" class="bg-white py-16">
-  <div class="w-11/12 max-w-[1080px] mx-auto">
-    <h2 class="text-center text-2xl font-bold text-deepBlueHead mb-6">Skills</h2>
-    <div class="flex flex-col md:flex-row gap-12 items-center">
-      <!-- Left: About Skills -->
-      <div class="md:w-1/2">
-        <h3 class="text-xl font-bold mb-4">Me and My Tech Stack</h3>
-        <p class="mb-2">
+<section id="Skill" class="skill-section">
+  <div class="skill-container">
+    <h2 class="skill-title">Skill</h2>
+    <div class="skill-divider"></div>
+  </div>
+
+  <!-- Skill Section -->
+  <div class="skills-wrapper">
+    <!-- Left -->
+    <div class="skill-left">
+      <h2 class="skill-heading">
+        <span class="caps">M</span>e and <br> My Tech Stack
+      </h2>
+      <div class="skill-subheading">
+        <p>
           Hi Everyone! My name is Ganesh Bramhane. I am a Full Stack Web Developer and MERN Developer.
           Currently I am pursuing a Master of Computer Application.
         </p>
-        <p class="mb-2">
+        <p>
           My technical skill set includes Core Java, C++, C, Object-Oriented Programming (OOP), and Data Structures. 
           I have a solid understanding of core computer science subjects, which helps me write clean, optimized, and scalable code.
         </p>
@@ -220,114 +227,136 @@
           Whether it's backend development, frontend design, or debugging complex logic — I love solving real-world problems through code.
         </p>
       </div>
-      <!-- Right: Skill Logos -->
-      <div class="md:w-1/2 flex flex-wrap justify-center gap-4 relative">
-        <img src="./images/userAsset/blob vector.png" class="blob-style" alt="blob background" />
-        <img src="./images/stack/HTML.png" alt="HTML" class="skills-logo" />
-        <img src="./images/stack/CSS.png" alt="CSS" class="skills-logo" />
-        <img src="./images/stack/Javascript.svg" alt="Javascript" class="skills-logo" />
-        <img src="./images/stack/React.png" alt="React" class="skills-logo" />
-        <img src="./images/stack/NodeJs.svg" alt="NodeJs" class="skills-logo" />
-        <img src="./images/stack/Next.svg" alt="Next.js" class="skills-logo" />
-        <img src="./images/stack/Redux.svg" alt="Redux" class="skills-logo" />
-        <img src="./images/stack/Tailwind.png" alt="Tailwind" class="skills-logo" />
-        <img src="./images/stack/Bootstrap.svg" alt="Bootstrap" class="skills-logo" />
-        <img src="./images/stack/MaterialUI.svg" alt="Material UI" class="skills-logo" />
-        <img src="./images/stack/Express.png" alt="Express" class="skills-logo" />
-        <img src="./images/stack/Git.svg" alt="Git" class="skills-logo" />
-        <img src="./images/stack/Github.svg" alt="Github" class="skills-logo" />
-        <img src="./images/stack/Graphql.svg" alt="GraphQL" class="skills-logo" />
-        <img src="./images/stack/MongoDB.svg" alt="MongoDB" class="skills-logo" />
-        <img src="./images/stack/Vercel.svg" alt="Vercel" class="skills-logo" />
-        <img src="./images/stack/ChartJs.svg" alt="ChartJs" class="skills-logo" />
-        <img src="./images/stack/Bash.svg" alt="Bash" class="skills-logo" />
-        <img src="./images/stack/Docker.svg" alt="Docker" class="skills-logo" />
-        <img src="./images/stack/K8s.svg" alt="Kubernetes" class="skills-logo" />
-      </div>
+    </div>
+
+    <!-- Right -->
+    <div class="skill-right">
+      <img src="./images/userAsset/blob vector.png" class="blob-style" alt="Background Blob" />
+      <img src="./images/stack/HTML.png" alt="HTML" class="skills-logo" />
+      <img src="./images/stack/CSS.png" alt="CSS" class="skills-logo" />
+      <img src="./images/stack/Javascript.svg" alt="Javascript" class="skills-logo" />
+      <img src="./images/stack/React.png" alt="React" class="skills-logo" />
+      <img src="./images/stack/NodeJs.svg" alt="NodeJs" class="skills-logo" />
+      <img src="./images/stack/Next.svg" alt="Next.js" class="skills-logo" />
+      <img src="./images/stack/Redux.svg" alt="Redux" class="skills-logo" />
+      <img src="./images/stack/Tailwind.png" alt="Tailwind" class="skills-logo" />
+      <img src="./images/stack/Bootstrap.svg" alt="Bootstrap" class="skills-logo" />
+      <img src="./images/stack/MaterialUI.svg" alt="Material UI" class="skills-logo" />
+      <img src="./images/stack/Express.png" alt="Express" class="skills-logo" />
+      <img src="./images/stack/Git.svg" alt="Git" class="skills-logo" />
+      <img src="./images/stack/Github.svg" alt="Github" class="skills-logo" />
+      <img src="./images/stack/Graphql.svg" alt="GraphQL" class="skills-logo" />
+      <img src="./images/stack/MongoDB.svg" alt="MongoDB" class="skills-logo" />
+      <img src="./images/stack/Vercel.svg" alt="Vercel" class="skills-logo" />
+      <img src="./images/stack/ChartJs.svg" alt="ChartJs" class="skills-logo" />
+      <img src="./images/stack/Bash.svg" alt="Bash" class="skills-logo" />
+      <img src="./images/stack/Docker.svg" alt="Docker" class="skills-logo" />
+      <img src="./images/stack/K8s.svg" alt="Kubernetes" class="skills-logo" />
     </div>
   </div>
 </section>
+
 
 
 <!-- Hobbies Section -->
-<section id="Hobbies" class="bg-white py-12">
-  <div class="w-11/12 max-w-[1080px] mx-auto">
-    <h2 class="text-center text-2xl font-bold text-deepBlueHead mb-6">Hobbies & Interests</h2>
-    <div class="flex flex-wrap justify-center gap-8">
-      <div class="bg-blue-100 p-6 rounded-lg shadow text-center w-40">
-        <span class="text-3xl">🏊‍♂️</span>
-        <div class="mt-2 font-bold">Swimming</div>
+<section id="Hobbies" class="hobbies-section">
+  <div class="hobbies-container">
+    <h2 class="hobbies-title">Hobbies & Interests</h2>
+    <div class="hobbies-divider"></div>
+
+    <div class="hobbies-grid">
+      <div class="hobby-card">
+        <span class="hobby-icon">🏊‍♂️</span>
+        <div class="hobby-name">Swimming</div>
       </div>
-      <div class="bg-blue-100 p-6 rounded-lg shadow text-center w-40">
-        <span class="text-3xl">📚</span>
-        <div class="mt-2 font-bold">Reading</div>
+
+      <div class="hobby-card">
+        <span class="hobby-icon">📚</span>
+        <div class="hobby-name">Reading</div>
       </div>
-      <div class="bg-blue-100 p-6 rounded-lg shadow text-center w-40">
-        <span class="text-3xl">✈️</span>
-        <div class="mt-2 font-bold">Travelling</div>
+
+      <div class="hobby-card">
+        <span class="hobby-icon">✈️</span>
+        <div class="hobby-name">Travelling</div>
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- Social Media Section -->
-<section id="SocialMedia" class="bg-white py-12">
-  <div class="w-11/12 max-w-[1080px] mx-auto text-center">
-    <h2 class="text-2xl font-bold text-deepBlueHead mb-6">Social Media</h2>
-    <div class="flex flex-wrap justify-center gap-8 mt-6">
-      <a href="https://www.linkedin.com/in/ganesh-bramhane070/" target="_blank"
-         class="bg-blue-50 rounded-lg shadow flex flex-col items-center justify-center w-36 h-36 transition-transform duration-300 hover:scale-110 hover:shadow-xl">
-        <img src="./images/linkedin-icon.svg" alt="LinkedIn" class="w-12 h-12 mb-2">
-        <span class="font-semibold text-lg mt-2">LinkedIn</span>
+<section id="SocialMedia" class="social-section">
+  <div class="social-container">
+    <h2 class="social-title">Social Media</h2>
+
+    <div class="social-grid">
+      <a href="https://www.linkedin.com/in/ganesh-bramhane070/" class="social-card">
+        <img src="./images/linkedin-icon.svg" alt="LinkedIn" class="social-icon">
+        <span class="social-name">LinkedIn</span>
       </a>
-      <a href="https://github.com/Ganesh0700" target="_blank"
-         class="bg-blue-50 rounded-lg shadow flex flex-col items-center justify-center w-36 h-36 transition-transform duration-300 hover:scale-110 hover:shadow-xl">
-        <img src="./images/github-icon.svg" alt="GitHub" class="w-12 h-12 mb-2">
-        <span class="font-semibold text-lg mt-2">GitHub</span>
+
+      <a href="https://github.com/Ganesh0700" class="social-card">
+        <img src="./images/github-icon.svg" alt="GitHub" class="social-icon">
+        <span class="social-name">GitHub</span>
       </a>
-      <a href="https://www.instagram.com/ganesh_bramhane07/" target="_blank"
-         class="bg-blue-50 rounded-lg shadow flex flex-col items-center justify-center w-36 h-36 transition-transform duration-300 hover:scale-110 hover:shadow-xl">
-        <img src="./images/instagram-icon.svg" alt="Instagram" class="w-12 h-12 mb-2">
-        <span class="font-semibold text-lg mt-2">Instagram</span>
+
+      <a href="https://www.instagram.com/ganesh_bramhane07/" class="social-card">
+        <img src="./images/instagram-icon.svg" alt="Instagram" class="social-icon">
+        <span class="social-name">Instagram</span>
       </a>
-      <a href="https://www.facebook.com/" target="_blank"
-         class="bg-blue-50 rounded-lg shadow flex flex-col items-center justify-center w-36 h-36 transition-transform duration-300 hover:scale-110 hover:shadow-xl">
-        <img src="./images/facebook-icon.svg" alt="Facebook" class="w-12 h-12 mb-2">
-        <span class="font-semibold text-lg mt-2">Facebook</span>
+
+      <a href="https://www.facebook.com/" class="social-card">
+        <img src="./images/facebook-icon.svg" alt="Facebook" class="social-icon">
+        <span class="social-name">Facebook</span>
       </a>
     </div>
   </div>
 </section>
 
+
 <!-- Education Section -->
-<section id="education" class="bg-white py-16">
-  <div class="w-11/12 max-w-[1080px] mx-auto">
-    <h2 class="text-center text-2xl font-bold text-deepBlueHead mb-6">Education</h2>
-    <p class="text-center text-gray-600 mb-8">I'm Trying to Show My Education Journey Here</p>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+<section id="education" class="education-section">
+  <div class="education-container">
+    <h2 class="education-title">Education</h2>
+    <div class="education-divider"></div>
+    <p class="education-subtitle">I'm Trying to Show My Education Journey Here</p>
+
+    <div class="education-grid">
       <!-- 10th -->
-      <div class="bg-yellow-100 p-6 rounded-lg shadow text-center">
-        <h6 class="font-bold text-lg mb-2">10th (SSC)</h6>
-        <p>Passed 2018 with 83.20%.</p>
+      <div class="edu-card yellow">
+        <h6>
+          <span class="edu-level">10th (SSC)</span><br>
+          Passed 2018 with 83.20%.
+        </h6>
       </div>
+
       <!-- 12th -->
-      <div class="bg-green-100 p-6 rounded-lg shadow text-center">
-        <h6 class="font-bold text-lg mb-2">12th (HSC)</h6>
-        <p>Passed 2020 with 69.00%.</p>
+      <div class="edu-card green">
+        <h6>
+          <span class="edu-level">12th (HSC)</span><br>
+          Passed 2020 with 69.00%.
+        </h6>
       </div>
+
       <!-- Graduation -->
-      <div class="bg-blue-100 p-6 rounded-lg shadow text-center">
-        <h6 class="font-bold text-lg mb-2">Graduation (BSc IT)</h6>
-        <p>Passed 2023 with 77.57%.</p>
+      <div class="edu-card blue">
+        <h6>
+          <span class="edu-level">Graduation (BSc IT)</span><br>
+          Passed 2023 with 77.57%.
+        </h6>
       </div>
+
       <!-- MCA -->
-      <div class="bg-purple-100 p-6 rounded-lg shadow text-center">
-        <h6 class="font-bold text-lg mb-2">MCA</h6>
-        <p>Pursuing [2026]...</p>
+      <div class="edu-card purple">
+        <h6>
+          <span class="edu-level">MCA</span><br>
+          Pursuing [2026]...
+        </h6>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <section class="hello-section">
@@ -436,4 +465,5 @@
 
 </body>
 </html>
+
 
