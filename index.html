@@ -47,8 +47,29 @@
       <h1 class="hero-title">Hi, I'm Ganesh Bramhane</h1>
       <div class="hero-divider"></div>
       <div class="hero-subheading">
-        I am a <span class="role"></span>
-      </div>
+  I am a <span class="role"></span>
+</div>
+
+<style>
+  .role {
+    color: blue; /* makes the text blue */
+  }
+</style>
+
+<script>
+  const roleElement = document.querySelector('.role');
+  const roles = ['Developer', 'Designer', 'Blogger', 'Creator']; // add as many as you like
+  let index = 0;
+
+  function changeRole() {
+    roleElement.textContent = roles[index];
+    index = (index + 1) % roles.length; // loop back to first role
+  }
+
+  changeRole(); // set the first role immediately
+  setInterval(changeRole, 2000); // change role every 2 seconds
+</script>
+
       <p class="hero-description">
         I’m a software developer and here is my portfolio website. <br>
         Here you’ll learn about my journey as a software developer.
@@ -128,7 +149,7 @@
     <div class="experience-divider"></div>
 
     <div class="experience-grid">
-      <!-- Experience Card -->
+      <!-- Previous Internship Card -->
       <div class="experience-card">
         <h3 class="experience-role">Intern - Software Developer</h3>
         <p class="experience-company">Humming Byte Technologies Pvt. Ltd</p>
@@ -142,15 +163,29 @@
         </ul>
       </div>
 
+      <!-- Current Internship Card -->
+      <div class="experience-card">
+        <h3 class="experience-role">Intern - Software Developer</h3>
+        <p class="experience-company">VMV Infotech (OPC) Pvt. Ltd.</p>
+        <p class="experience-duration">Sep 2025 - Present</p>
+        <ul class="experience-details">
+          <li>✅ Currently pursuing internship as a Software Developer Intern at VMV Infotech.</li>
+          <li>✅ Working on live projects and gaining industry exposure in software development.</li>
+          <li>✅ Learning professional workflows, version control, and development best practices.</li>
+          <li>✅ Enhancing technical skills while collaborating with the team.</li>
+        </ul>
+      </div>
+
       <!-- Future Opportunities Card -->
       <div class="experience-card highlight-card">
         <h3 class="experience-role center-text">
-          Now I’m looking for <br> a Job / Internship <br> in a Reputed Company 🚀
+          Now I’m looking for <br> a Full-time Role <br> in a Reputed Company 🚀
         </h3>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <section id="Certification" class="cert-section">
@@ -366,7 +401,12 @@
     <img src="./images/feature-section1-dottedrows.png" alt="" class="decor-shape">
 
     <!-- Heading -->
-    <h2 class="section-title text-lightBlue">Hello, HR's 👋</h2>
+    <h2 class=" hello section-title text-lightBlue">Hello, HR/Recruiter Team</h2>
+      <style>
+       .hello {
+           color: blue; /* makes the text blue */
+          }
+</style>
     <div class="divider"></div>
 
     <div class="hello-content">
@@ -465,6 +505,7 @@
 
 </body>
 </html>
+
 
 
 
